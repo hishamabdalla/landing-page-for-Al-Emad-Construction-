@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="12" width="48" height="36" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+  <path d="M16 20H48V24H16V20Z" fill="currentColor" opacity="0.1"/>
+  <path d="M12 16H52M12 48H52" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+  <rect x="20" y="28" width="24" height="16" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <path d="M22 30H42M22 32H38M22 34H40M22 36H36M22 38H42M22 40H38M22 42H40" stroke="currentColor" stroke-width="0.8" opacity="0.6"/>
+  <circle cx="48" cy="32" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+  <path d="M45 29L47 31L51 27" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 35V37" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <rect x="12" y="52" width="8" height="8" rx="2" fill="currentColor"/>
+  <rect x="24" y="52" width="8" height="8" rx="2" fill="currentColor"/>
+  <rect x="36" y="52" width="8" height="8" rx="2" fill="currentColor"/>
+  <rect x="48" y="52" width="8" height="8" rx="2" fill="currentColor"/>
+  <path d="M14 54H18M14 56H18M14 58H18" stroke="white" stroke-width="0.5"/>
+  <path d="M26 54H30M26 56H30M26 58H30" stroke="white" stroke-width="0.5"/>
+  <path d="M38 54H42M38 56H42M38 58H42" stroke="white" stroke-width="0.5"/>
+  <path d="M50 54H54M50 56H54M50 58H54" stroke="white" stroke-width="0.5"/>
+  <path d="M16 8L20 4L24 8H16Z" fill="currentColor"/>
+  <path d="M40 8L44 4L48 8H40Z" fill="currentColor"/>
+</svg>
