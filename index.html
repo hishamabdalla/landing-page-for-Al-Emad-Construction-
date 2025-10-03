@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مؤسسة العماد للمقاولات - شركة مقاولات رائدة تقدم خدمات البناء والتشييد والترميم بأعلى معايير الجودة والدقة في المملكة العربية السعودية">
+    <meta name="keywords" content="مقاولات, بناء, تشييد, ترميم, مؤسسة العماد, المقاولات, البناء والتشييد">
+    <meta name="author" content="مؤسسة العماد للمقاولات">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="مؤسسة العماد للمقاولات - خدمات البناء والتشييد">
+    <meta property="og:description" content="شركة مقاولات رائدة تقدم خدمات البناء والتشييد والترميم بأعلى معايير الجودة">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_SA">
+    
+    <title>مؤسسة العماد للمقاولات - خدمات البناء والتشييد الرائدة</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" as="style">
+    
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- EmailJS for automatic email sending -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID'); // Replace with actual pixel ID
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID'); // Replace with actual GA ID
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "مؤسسة العماد للمقاولات",
+        "description": "شركة مقاولات رائدة تقدم خدمات البناء والتشييد والترميم",
+        "url": "https://yourwebsite.com",
+        "telephone": "+966-XX-XXX-XXXX",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "SA"
+        },
+        "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="مؤسسة العماد للمقاولات" class="logo">
+                    <span class="logo-text">مؤسسة العماد للمقاولات</span>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#hero" class="nav-link">الرئيسية</a>
+                    <a href="#about" class="nav-link">من نحن</a>
+                    <a href="#services" class="nav-link">خدماتنا</a>
+                    <a href="#portfolio" class="nav-link">أعمالنا</a>
+                    <a href="#testimonials" class="nav-link">آراء العملاء</a>
+                    <a href="#contact" class="nav-link">تواصل معنا</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <img src="images/hero-bg.jpg" alt="أعمال البناء والتشييد" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">مؤسسة العماد للمقاولات</h1>
+                <p class="hero-subtitle">نبني أحلامكم بخبرة تزيد عن 15 عامًا في مجال البناء والتشييد</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span>جودة عالية مضمونة</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span>التسليم في الوقت المحدد</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span>أسعار تنافسية</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="cta-button primary" onclick="scrollToContact()">
+                        اطلب عرض السعر الآن
+                        <span class="cta-arrow">←</span>
+                    </button>
+                    <button class="cta-button secondary" onclick="makeCall()">
+                        اتصل بنا الآن
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span class="scroll-text">اكتشف المزيد</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">من نحن</h2>
+                <p class="section-subtitle">رائدون في مجال البناء والتشييد منذ عام 2008</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>خبرة تزيد عن 15 عامًا في خدمتكم</h3>
+                    <p>مؤسسة العماد للمقاولات هي شركة رائدة في مجال البناء والتشييد والترميم، تأسست عام 2008 بهدف تقديم خدمات عالية الجودة للعملاء في جميع أنحاء المملكة العربية السعودية.</p>
+                    <p>نحن نفخر بفريقنا المتخصص من المهندسين والفنيين المهرة الذين يعملون بجد لتحقيق رؤية عملائنا وتحويل أحلامهم إلى واقع ملموس.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="500">0</span>
+                            <span class="stat-label">مشروع مكتمل</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-label">عميل راضٍ</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <button class="cta-button primary" onclick="scrollToContact()">
+                            احصل على استشارة مجانية
+                        </button>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="فريق مؤسسة العماد للمقاولات" loading="lazy">
+                    <div class="about-badge">
+                        <span class="badge-text">مرخصة من وزارة الإسكان</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدماتنا</h2>
+                <p class="section-subtitle">نقدم مجموعة شاملة من خدمات البناء والتشييد</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">البناء والتشييد</h3>
+                    <p class="service-description">نقدم خدمات البناء والتشييد للمنازل والفلل والمباني التجارية بأعلى معايير الجودة والدقة.</p>
+                    <ul class="service-features">
+                        <li>تصميم معماري احترافي</li>
+                        <li>تنفيذ دقيق ومتقن</li>
+                        <li>مواد بناء عالية الجودة</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3 class="service-title">الترميم والتجديد</h3>
+                    <p class="service-description">خدمات ترميم وتجديد المباني القديمة لإعادة إحيائها وجعلها تواكب العصر الحديث.</p>
+                    <ul class="service-features">
+                        <li>ترميم المباني التراثية</li>
+                        <li>تحديث التصميم الداخلي</li>
+                        <li>إصلاح الأضرار الهيكلية</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="service-title">التصميم الداخلي</h3>
+                    <p class="service-description">تصميم وتنفيذ ديكورات داخلية عصرية تجمع بين الجمال والوظائف العملية.</p>
+                    <ul class="service-features">
+                        <li>تصميم مخصص حسب الذوق</li>
+                        <li>استخدام أحدث الخامات</li>
+                        <li>إضاءة ذكية ومتطورة</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">الصيانة العامة</h3>
+                    <p class="service-description">خدمات صيانة شاملة للمباني والمنشآت للحفاظ على جودتها وإطالة عمرها الافتراضي.</p>
+                    <ul class="service-features">
+                        <li>صيانة دورية منتظمة</li>
+                        <li>إصلاح الأعطال الطارئة</li>
+                        <li>فريق فني متخصص</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="service-title">تنسيق الحدائق</h3>
+                    <p class="service-description">تصميم وتنسيق الحدائق والمساحات الخضراء لخلق بيئة طبيعية جميلة ومريحة.</p>
+                    <ul class="service-features">
+                        <li>تصميم المساحات الخضراء</li>
+                        <li>اختيار النباتات المناسبة</li>
+                        <li>أنظمة ري متطورة</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3 class="service-title">الاستشارات الهندسية</h3>
+                    <p class="service-description">تقديم استشارات هندسية متخصصة لضمان نجاح مشاريعكم من الناحية التقنية والاقتصادية.</p>
+                    <ul class="service-features">
+                        <li>دراسات الجدوى الهندسية</li>
+                        <li>التخطيط والإشراف</li>
+                        <li>حلول هندسية مبتكرة</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <button class="cta-button primary" onclick="scrollToContact()">
+                    احصل على عرض سعر مجاني
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">أعمالنا</h2>
+                <p class="section-subtitle">مجموعة من أفضل مشاريعنا المنجزة بنجاح</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">جميع الأعمال</button>
+                <button class="filter-btn" data-filter="residential">المباني السكنية</button>
+                <button class="filter-btn" data-filter="commercial">المباني التجارية</button>
+                <button class="filter-btn" data-filter="renovation">الترميم</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image">
+                        <img src="images/project-1-before.jpg" alt="مشروع فيلا سكنية - قبل" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>فيلا سكنية فاخرة</h3>
+                                <p>الرياض - 2023</p>
+                                <button class="view-project-btn" onclick="openProjectModal('project1')">عرض التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="before-after-toggle">
+                            <span class="toggle-text">قبل / بعد</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image">
+                        <img src="images/project-2-after.jpg" alt="مشروع مبنى تجاري" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>مبنى تجاري حديث</h3>
+                                <p>جدة - 2023</p>
+                                <button class="view-project-btn" onclick="openProjectModal('project2')">عرض التفاصيل</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="renovation">
+                    <div class="portfolio-image">
+                        <img src="images/project-3-before.jpg" alt="مشروع ترميم منزل" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>ترميم منزل تراثي</h3>
+                                <p>الدمام - 2022</p>
+                                <button class="view-project-btn" onclick="openProjectModal('project3')">عرض التفاصيل</button>
+                            </div>
+                        </div>
+                        <div class="before-after-toggle">
+                            <span class="toggle-text">قبل / بعد</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="residential">
+                    <div class="portfolio-image">
+                        <img src="images/project-4-after.jpg" alt="مشروع شقق سكنية" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>مجمع شقق سكنية</h3>
+                                <p>الرياض - 2022</p>
+                                <button class="view-project-btn" onclick="openProjectModal('project4')">عرض التفاصيل</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <button class="cta-button secondary" onclick="scrollToContact()">
+                    شاهد المزيد من أعمالنا
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">آراء عملائنا</h2>
+                <p class="section-subtitle">ما يقوله عملاؤنا عن خدماتنا</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="testimonial-text">"تعاملت مع مؤسسة العماد لبناء فيلتي وكانت التجربة رائعة. الجودة عالية والالتزام بالمواعيد مثالي. أنصح بهم بشدة."</p>
+                        <div class="testimonial-author">
+                            <img src="images/client-1.jpg" alt="أحمد المطيري" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">أحمد المطيري</h4>
+                                <span class="author-title">مالك فيلا - الرياض</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="testimonial-text">"خدمة ممتازة ومهنية عالية. قاموا بترميم مبناي التجاري بطريقة احترافية ونتيجة تفوق التوقعات."</p>
+                        <div class="testimonial-author">
+                            <img src="images/client-2.jpg" alt="فاطمة العتيبي" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">فاطمة العتيبي</h4>
+                                <span class="author-title">صاحبة مشروع تجاري - جدة</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="testimonial-text">"فريق عمل متميز وخدمة عملاء ممتازة. تم إنجاز مشروع منزلي في الوقت المحدد وبجودة عالية جداً."</p>
+                        <div class="testimonial-author">
+                            <img src="images/client-3.jpg" alt="محمد الشهراني" class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">محمد الشهراني</h4>
+                                <span class="author-title">مهندس - الدمام</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-controls">
+                <button class="testimonial-prev">‹</button>
+                <div class="testimonials-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="testimonial-next">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <div class="offers-content">
+                <div class="offers-text">
+                    <h2 class="offers-title">عرض محدود لفترة قصيرة</h2>
+                    <p class="offers-subtitle">احصل على خصم يصل إلى 20% على جميع مشاريع البناء والترميم</p>
+                    <ul class="offers-features">
+                        <li>خصم 20% على المشاريع الجديدة</li>
+                        <li>استشارة هندسية مجانية</li>
+                        <li>ضمان شامل لمدة 5 سنوات</li>
+                        <li>تسهيلات في الدفع</li>
+                    </ul>
+                    <div class="offers-timer">
+                        <p class="timer-text">ينتهي العرض خلال:</p>
+                        <div class="countdown">
+                            <div class="time-unit">
+                                <span id="days">00</span>
+                                <span class="time-label">يوم</span>
+                            </div>
+                            <div class="time-unit">
+                                <span id="hours">00</span>
+                                <span class="time-label">ساعة</span>
+                            </div>
+                            <div class="time-unit">
+                                <span id="minutes">00</span>
+                                <span class="time-label">دقيقة</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="cta-button primary large" onclick="scrollToContact()">
+                        احجز العرض الآن
+                        <span class="cta-arrow">←</span>
+                    </button>
+                </div>
+                <div class="offers-image">
+                    <img src="images/special-offer.jpg" alt="عروض خاصة" loading="lazy">
+                    <div class="discount-badge">
+                        <span class="discount-percent">20%</span>
+                        <span class="discount-text">خصم</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-subtitle">نحن هنا لخدمتكم على مدار الساعة</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>الهاتف</h4>
+                            <p><a href="tel:+201008295776">+20 100 829 5776</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>واتساب</h4>
+                            <p><a href="https://wa.me/201008295776" target="_blank" class="whatsapp-link">تواصل عبر الواتساب</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>البريد الإلكتروني</h4>
+                            <p><a href="mailto:info@nayzakcontracting.com">info@nayzakcontracting.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>العنوان</h4>
+                            <p>المملكة العربية السعودية<br>الرياض، حي النخيل</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>ساعات العمل</h4>
+                            <p>السبت - الخميس: 8 ص - 6 م<br>الجمعة: مغلق</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>تابعونا على</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link" aria-label="فيسبوك">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="تويتر">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="إنستاغرام">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="لينكد إن">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="يوتيوب">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <h3>احصل على عرض سعر مجاني</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">الاسم الكامل *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">رقم الهاتف *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phone-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">نوع الخدمة *</label>
+                            <select id="service" name="service" required>
+                                <option value="">اختر نوع الخدمة</option>
+                                <option value="building">البناء والتشييد</option>
+                                <option value="renovation">الترميم والتجديد</option>
+                                <option value="interior">التصميم الداخلي</option>
+                                <option value="maintenance">الصيانة العامة</option>
+                                <option value="landscape">تنسيق الحدائق</option>
+                                <option value="consulting">الاستشارات الهندسية</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                            <span class="error-message" id="service-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">تفاصيل المشروع</label>
+                            <textarea id="message" name="message" rows="5" placeholder="اكتب تفاصيل مشروعك هنا..."></textarea>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">أوافق على <a href="#" class="privacy-link">سياسة الخصوصية</a> وشروط الاستخدام *</label>
+                            <span class="error-message" id="privacy-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="cta-button primary large submit-btn">
+                            <span class="btn-text">إرسال الطلب</span>
+                            <span class="btn-loading">جاري الإرسال...</span>
+                        </button>
+                    </form>
+                    
+                    <div id="form-success" class="form-success" style="display: none;">
+                        <div class="success-icon">✅</div>
+                        <h3>تم إرسال طلبكم بنجاح!</h3>
+                        <p>تم إرسال طلبكم تلقائياً إلى فريقنا. سنتواصل معكم خلال 24 ساعة لمناقشة تفاصيل مشروعكم.</p>
+                        <p><strong>رقم التواصل المباشر:</strong> <a href="tel:+201008295776">01008295776</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="map-section">
+                <h3>موقعنا على الخريطة</h3>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.140689303595!2d46.67187871498043!3d24.774264984068314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee2f8cf4ff5d5%3A0x1c1b9c7c8e4e4e4e!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1645123456789!5m2!1sen!2sus"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="موقع مؤسسة العماد للمقاولات">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="مؤسسة العماد للمقاولات" class="footer-logo-img">
+                        <h3>مؤسسة العماد للمقاولات</h3>
+                    </div>
+                    <p class="footer-description">شركة رائدة في مجال البناء والتشييد والترميم، نقدم خدمات عالية الجودة منذ عام 2008.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>خدماتنا</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">البناء والتشييد</a></li>
+                        <li><a href="#services">الترميم والتجديد</a></li>
+                        <li><a href="#services">التصميم الداخلي</a></li>
+                        <li><a href="#services">الصيانة العامة</a></li>
+                        <li><a href="#services">تنسيق الحدائق</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط مهمة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#portfolio">أعمالنا</a></li>
+                        <li><a href="#testimonials">آراء العملاء</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <div class="footer-contact">
+                        <p>📱 +966 55 512 3456</p>
+                        <p>✉️ info@nayzakcontracting.com</p>
+                        <p>📍 الرياض، حي النخيل</p>
+                    </div>
+                    <button class="cta-button primary" onclick="scrollToContact()">
+                        احصل على عرض سعر
+                    </button>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 مؤسسة العماد للمقاولات. جميع الحقوق محفوظة.</p>
+                </div>
+                <div class="footer-certificates">
+                    <span>مرخصة من وزارة الإسكان</span>
+                    <span>عضو في غرفة التجارة</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="العودة إلى الأعلى">
+        ↑
+    </button>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/201008295776?text=السلام عليكم، أود الاستفسار عن خدماتكم" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="تواصل عبر الواتساب">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.051 3.488z"/>
+        </svg>
+    </a>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Project details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
